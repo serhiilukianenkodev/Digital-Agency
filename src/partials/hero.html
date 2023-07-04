@@ -1,0 +1,154 @@
+<!-- Hero HTML -->
+<section class="hero" id="hero">
+  <div class="hero__container container">
+    <div class="hero__titlebox titlebox">
+      <h1 class="hero__title">
+        ice cream made with
+        <span class="hero__title--accent">passion</span>
+      </h1>
+      <ul class="titlebox__list list">
+        <li class="titlebox__item">
+          <a class="titlebox__link link titlebox__link--accent" href="#products"
+            >Products</a
+          >
+        </li>
+        <li class="titlebox__item">
+          <a class="titlebox__link link" href="#about">How it’s made?</a>
+        </li>
+      </ul>
+      <div class="titlebox__bottom">
+        <picture>
+          <source
+            srcset="
+              ./images/hero/hero-milk-1x.png 1x,
+              ./images/hero/hero-milk-2x.png 2x
+            "
+            media="(min-width: 1280px)"
+            type="image/png"
+          />
+          <source
+            srcset="
+              ./images/hero/hero-milk-tab-1x.png 1x,
+              ./images/hero/hero-milk-tab-2x.png 2x
+            "
+            media="(min-width: 768px)"
+            type="image/png"
+          />
+          <img
+            class="titlebox__img"
+            src="./images/hero/hero-milk-tab-1x.png"
+            alt="jug of milk"
+          />
+        </picture>
+        <div class="titlebox__description">
+          <p class="titlebox__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et
+          </p>
+          <button class="titlebox__button" data-hero-modal-open>
+            <svg class="titlebox__icon" width="11" height="10">
+              <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="circle"></div>
+    <picture>
+      <source
+        srcset="
+          ./images/hero/hero-ice-1x.png 1x,
+          ./images/hero/hero-ice-2x.png 2x
+        "
+        media="(min-width: 1280px)"
+        type="image/png"
+      />
+      <source
+        srcset="
+          ./images/hero/hero-ice-tab-1x.png 1x,
+          ./images/hero/hero-ice-tab-2x.png 2x
+        "
+        media="(min-width: 768px)"
+        type="image/png"
+      />
+      <source
+        srcset="
+          ./images/hero/hero-ice-mob-1x.png 1x,
+          ./images/hero/hero-ice-mob-2x.png 2x
+        "
+        media="(min-width: 320px)"
+        type="image/png"
+      />
+      <img
+        class="hero__icecream"
+        src="./images/hero/hero-ice-mob-1x.png"
+        alt="ice cream"
+      />
+    </picture>
+    <picture>
+      <source
+        srcset="
+          ./images/hero/hero-girl-1x.png 1x,
+          ./images/hero/hero-girl-2x.png 2x
+        "
+        media="(min-width: 1280px)"
+        type="image/png"
+      />
+      <source
+        srcset="
+          ./images/hero/hero-girl-tab-1x.png 1x,
+          ./images/hero/hero-girl-tab-2x.png 2x
+        "
+        media="(min-width: 768px)"
+        type="image/png"
+      />
+      <img
+        class="hero__girl"
+        src="./images/hero/hero-girl-tab-1x.png"
+        alt="girl with ice cream"
+      />
+    </picture>
+    <ul class="hero__stats hero-stats list">
+      <li class="hero-stats__item">
+        <p class="hero-stats__content">
+          <span class="hero-stats__content--accent">16 <br /></span>cafes
+        </p>
+      </li>
+      <li class="hero-stats__item">
+        <p class="hero-stats__content">
+          <span class="hero-stats__content--accent">23<br /></span>food trucks
+        </p>
+      </li>
+    </ul>
+  </div>
+  <div class="mobile-menu" id="mobile-menu" data-menu>
+    <button
+      class="mobile-button mobile-button--cross"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      data-mobile-button
+    ></button>
+    <button class="mobile-menu__button button" data-mobile-modal-open>
+      Buy now
+    </button>
+    <nav class="mobile-nav">
+      <ul class="mobile-nav__list list">
+        <li class="mobile-nav__item">
+          <a class="mobile-nav__link link" href="index.html">Home</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a class="mobile-nav__link link" href="#footer">About us</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a class="mobile-nav__link link" href="#about">How it’s made?</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a class="mobile-nav__link link" href="#products">Our products</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a class="mobile-nav__link link" href="#contacts">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>

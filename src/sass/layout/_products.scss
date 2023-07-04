@@ -1,0 +1,310 @@
+// products sass
+
+.product-section {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1280px) {
+    padding-top: 56px;
+  }
+}
+
+.natural {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.16;
+  margin-bottom: 15px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--cl-pink);
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.15;
+    margin-bottom: 18px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 16px;
+  }
+}
+
+.prod-title {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: var(--cl-red);
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+    line-height: 1.14;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 58px;
+    line-height: 1.13;
+  }
+}
+
+.production {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  margin-top: 50px;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: var(--cl-light);
+  @media screen and (min-width: 768px) {
+    margin-top: 25px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 30px;
+    line-height: 1.13;
+    margin-top: 20px;
+  }
+}
+
+.production::after {
+  content: '';
+  width: 26px;
+  display: block;
+  border-bottom: 6px;
+  border-style: dotted;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: var(--cl-light);
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.78;
+  }
+}
+
+.ice-item {
+  padding-top: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 160px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+  }
+}
+
+.list-item {
+  margin-top: 148px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-left: -16px;
+    margin-top: 154px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-left: -32px;
+    margin-top: 261px;
+  }
+}
+
+.cream {
+  background: var(--bg-pink);
+}
+.coffe {
+  background: var(--bg-beige);
+}
+.milkshakes {
+  background: var(--bg-green);
+}
+
+.ice-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  border-radius: 24px;
+  margin-top: 150px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 16px;
+    margin-top: 0;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-left: 32px;
+
+    max-width: 394px;
+  }
+}
+
+.ice-item::before {
+  display: block;
+
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  content: '';
+
+  background-repeat: no-repeat;
+
+  top: 0;
+
+  transform: translateY(-50%);
+
+  @media screen and (min-width: 768px) {
+    transform: translateY(-65%);
+
+    width: 224px;
+    height: 224px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 394px;
+    height: 394px;
+  }
+}
+
+.cream::before {
+  background-image: url(../images/products/icecream1-mob-1x.png);
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/products/icecream1-tab-1x.png);
+  }
+  @media screen and (min-width: 1280px) {
+    background-image: url(../images/products/icecream1-1x.png);
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .cream::before {
+    background-image: url(../images/products/icecream1-mob-2x.png);
+
+    background-size: cover;
+    background-position: center;
+    @media screen and (min-width: 768px) {
+      background-image: url(../images/products/icecream1-tab-2x.png);
+    }
+    @media screen and (min-width: 1280px) {
+      background-image: url(../images/products/icecream1-2x.png);
+    }
+  }
+}
+
+.coffe::before {
+  background-image: url(../images/products/icecream2-mob-1x.png);
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/products/icecream2-tab-1x.png);
+  }
+  @media screen and (min-width: 1280px) {
+    background-image: url(../images/products/icecream2-1x.png);
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .coffe::before {
+    background-image: url(../images/products/icecream2-mob-2x.png);
+
+    background-size: cover;
+    background-position: center;
+    @media screen and (min-width: 768px) {
+      background-image: url(../images/products/icecream2-tab-2x.png);
+    }
+    @media screen and (min-width: 1280px) {
+      background-image: url(../images/products/icecream2-2x.png);
+    }
+  }
+}
+
+.milkshakes::before {
+  background-image: url(../images/products/icecream3-mob-1x.png);
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/products/icecream3-tab-1x.png);
+  }
+  @media screen and (min-width: 1280px) {
+    background-image: url(../images/products/icecream3-1x.png);
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .milkshakes::before {
+    background-image: url(../images/products/icecream3-mob-2x.png);
+
+    background-size: cover;
+    background-position: center;
+    @media screen and (min-width: 768px) {
+      background-image: url(../images/products/icecream3-tab-2x.png);
+    }
+    @media screen and (min-width: 1280px) {
+      background-image: url(../images/products/icecream3-2x.png);
+    }
+  }
+}
+
+.button-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  padding: 0;
+  transition: background-color var(--transition-duration)
+    var(--transition-timing-function);
+}
+
+.button-arrow:hover,
+.button-arrow:focus {
+  transform: scale(1.1);
+  background-color: var(--bg-hover);
+}
+
+.arrow-logo {
+  display: inline-block;
+  fill: var(--cl-red);
+}

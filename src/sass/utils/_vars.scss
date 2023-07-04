@@ -1,0 +1,30 @@
+:root {
+  // Font-family
+  --font-primary: 'DM Sans', sans-serif;
+  --font-secondary: 'Titan One', cursive;
+
+  // Font color
+  --cl-light: #ffffff;
+  --cl-dark: #000000;
+  --cl-brown: #907e82;
+  --cl-red: #d41443;
+  --cl-pink: #ffa5ba;
+
+  // Background color
+  --bg-light: #ffffff;
+  --bg-pink: #ffb8ca;
+  --bg-lightpink: #fff5f6;
+  --bg-beige: #f0d1a5;
+  --bg-green: #c2e297;
+  --bg-red: #d41443;
+  --bg-hover: #ecebeb;
+  --bg-accent-hover: #c7133e;
+  --bg-modal: #e17992;
+  --bg-grey: #fafafa;
+  --bg-border: #E1E1E1;
+  --bg-btnloc: #D41342;
+
+  //   Transition
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
