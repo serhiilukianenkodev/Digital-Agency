@@ -1,22 +1,22 @@
 {
-  "name": "parcel-project-template",
+  "name": "digital-agency",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://luxplanjay.github.io/team-proj-demo",
+  "homepage": "https://serhiilukianenkodev.github.io/digital-agency",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-proj-demo/"
+    "build": "parcel build src/*.html --public-url /digital-agency/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/serhiilukianenkodev/digital-agency.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "serhiilukianenkodev <serhiilukianenkodev@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/serhiilukianenkodev/digital-agency/issues"
   },
   "devDependencies": {
     "gh-pages": "^3.1.0",
